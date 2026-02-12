@@ -1,10 +1,16 @@
 # Smart Receipt Manager 🧾
 
-Hi! I'm a student trying things out, and this is my project to help manage messy paper receipts. It uses AI and rule-list to read and categorize your expenses automatically. \n
-(This is set to german, so change things our way in rule_config and path_config)
-The text below is ai so idk what it says - to lazy to read it: 
----
+Hi! I'm a student trying things out, and this is my project to help manage messy paper receipts. It uses AI and rule-list to read and categorize your expenses automatically.
 
+You wanna only use it (and have german receipts) and dont think about code: Download the groq version, need an groq-account for it an create api-key (look it up where)
+
+You wanna change code / language: use groq - I used gemeni to clean the comments and make them english, good luck!
+You have good pc and wanna have it offline: use ollama (missing some crash-security, but it works excatly the same) 
+
+change langueges, only needed in: rule_config and path_config
+
+anything below here is AI generated - have fun reading it, cuz I didnt
+---
 ## 🚀 Two Ways to Use AI
 
 You can choose between two versions in this repository:
