@@ -1,6 +1,6 @@
 # Smart Receipt Manager 🧾
 
-Hi! I'm a student trying things out, and this is my project to help manage messy paper receipts. It uses AI and rule-list to read and categorize your expenses automatically.   
+Hi! I'm a student trying things out, and this is my project to help manage diffrent digital receipts. It scans for name price quantity. It uses AI and rule-list to categorize your items automatically.   
 
 You wanna only use it (and have german receipts) and dont think about code: Download the groq version, need an groq-account for it an create api-key (look it up where)   
 
