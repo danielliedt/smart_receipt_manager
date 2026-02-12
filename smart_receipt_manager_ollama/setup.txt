@@ -1,0 +1,28 @@
+# 🛠 Quick Setup Guide (Offline Version)
+
+### 1. Python Dependencies
+Install the required library stack via terminal:
+
+pip install PyQt6 pypdf pytesseract Pillow requests matplotlib
+
+### 2. AI Brain (Local LLM via Ollama)
+The categorizer uses a local API to remain 100% offline.
+- Install Ollama: https://ollama.com
+- Download the model (once): 
+  ollama pull llama3.1
+- Note: Ollama must be running (check system tray) for the app to work.
+
+### 3. OCR Engine (Portable Tesseract)
+The project is configured to use a portable Tesseract version to avoid system path issues.
+- Folder name: "tesseract_bin" (must be in the project root).
+- Required file: "tesseract_bin/tesseract.exe".
+- Training data: Place "deu.traineddata" in "tesseract_bin/tessdata/".
+
+### 4. Initial Launch
+On the first start, the application automatically creates the following workspace in your Documents folder:
+- /Documents/SmartReceipts/Input
+- /Documents/SmartReceipts/Processed_PDFs
+- /Documents/SmartReceipts/CSV_Database
+
+### 5. Run the App
+python main_gui.py
