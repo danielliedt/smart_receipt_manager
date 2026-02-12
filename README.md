@@ -1,6 +1,6 @@
 # Smart Receipt Manager 🧾
 
-Hi! I'm a student trying things out, and this is my project to help manage messy paper receipts. It uses AI and rule-list to read and categorize your expenses automatically.
+Hi! I'm a student trying things out, and this is my project to help manage messy paper receipts. It uses AI and rule-list to read and categorize your expenses automatically. \n
 (This is set to german, so change things our way in rule_config and path_config)
 The text below is ai so idk what it says - to lazy to read it: 
 ---
